@@ -9,3 +9,7 @@ Multi-cluster system simulation platform for SGIN includes: Debian-12 + Ubuntu-2
 
 [3] This platform (26 VDI files, totaling 520GB) can be downloaded from Baidu Netdisk:
 https://pan.baidu.com/s/14OYD1oD8e9iLxjljxDkQjw?pwd=xu2c
+
+# Test raw data
+Test raw data download from:
+https://pan.baidu.com/s/17qmAB5kGHQnWJSCrg1Ae-w?pwd=s73u
