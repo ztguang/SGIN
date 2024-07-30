@@ -17,5 +17,7 @@ https://pan.baidu.com/s/17qmAB5kGHQnWJSCrg1Ae-w?pwd=s73u
 # how to run the multi-cluster system simulation platform for SGIN
 
 cd SGIN-26vdi
+
 chmod +x run-SGIN.sh
+
 ./run-SGIN.sh
