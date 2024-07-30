@@ -21,3 +21,5 @@ cd SGIN-26vdi
 chmod +x run-SGIN.sh
 
 ./run-SGIN.sh
+
+NOTE: Before executing run-SGIN.sh, please replace the path /opt/k8s/vdi in the run-SGIN.sh file with the absolute path to your SGIN-26vdi folder.
