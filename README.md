@@ -3,7 +3,7 @@ Multi-Cluster System for Space-Ground Integration Network
 
 Multi-cluster system simulation platform for SGIN includes: Debian-12 + Ubuntu-24.04 + Karmada-v1.10.3 + Kubernetes-v1.28.6 + KubeEdge-v1.17.0 + EdgeMesh-v1.17.0 + Calico-v3.28.0 + MPTCP-v1 + Quagga + SDN
 
-[1] The world's first publicly available practical multi-cluster system simulation platform allows modification of network topologies (SDN) and addition/removal of nodes (VDI) according to specific needs. This platform supports research in edge computing, service computing, network protocols, and AI edge computing (physical machines such as NVIDIA Jetson can be integrated into this platform).
+[1] The world's first to publicly offer a practically usable multi-cluster system simulation platform, where users can modify network topology and add or remove nodes based on their specific needs. This platform supports research in edge computing, service computing, network protocols, and AI edge computing (physical machines such as NVIDIA Jetson can be integrated into this platform).
 
 [2] The world's first to research and successfully implement multipath data transmission technology among different node containers in K8S clusters.
 
