@@ -7,10 +7,10 @@
 sleep 20
 
 # execute topology1-02.sh
-./topology1-02.sh
+# ./topology1-02.sh
 
 # The network topology above remains unchanged for 30 seconds
-sleep 30
+# sleep 30
 
 # execute topology1-03.sh
 ./topology1-03.sh
