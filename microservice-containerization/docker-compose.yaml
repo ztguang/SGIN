@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  yolo11-detection-service:
+    build: .
+    container_name: yolo11-detection-service
+    ports:
+      - "8000:8000" # 暴露web端口
+    volumes:
+      - ./best-mango.pt:/app/best-mango.pt # 挂载mango模型
+      - ./best-VisDrone.pt:/app/best-VisDrone.pt # 挂载remote模型
+      - ./outputs:/app/outputs # 挂载输出目录
+    environment:
+      - MANGO_MODEL_PATH=/app/best-mango.pt
+      - REMOTE_MODEL_PATH=/app/best-VisDrone.pt
+      - SAVE_DIR=/app/outputs
+      - CONF_THRESHOLD=0.25
+    # 下面是关键配置：启用 MPTCP 支持
+    cap_add:
+      - NET_ADMIN          # 允许容器操作网络
+    privileged: true       # 允许容器修改网络栈（MPTCP 需要）
+    network_mode: host     # 推荐使用 host 网络模式，让容器直接使用宿主机网络栈（MPTCP 最有效）
